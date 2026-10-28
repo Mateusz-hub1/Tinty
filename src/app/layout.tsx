@@ -11,8 +11,8 @@ export const metadata: Metadata = {
   title: 'Tinty',
   description: 'Tinty',
   icons: {
-    icon: '/icon.svg',
-    shortcut: '/icon.svg',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
     apple: '/icon.svg',
   },
   appleWebApp: {
