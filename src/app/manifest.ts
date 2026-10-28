@@ -2,18 +2,18 @@ import type { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
     return {
-        name: 'Tinty – Asystent Kolorysty',
+        name: 'Tinty',
         short_name: 'Tinty',
-        description: 'Cyfrowy asystent kolorysty fryzjerskiego: receptury, ważenie chemii i relacje z klientkami.',
+        description: 'Tinty',
         start_url: '/clients',
         display: 'standalone',
-        background_color: '#f5f5f4',
-        theme_color: '#ffffff',
+        background_color: '#09090b',
+        theme_color: '#09090b',
         icons: [
             {
-                src: '/favicon.ico',
+                src: '/icon.svg',
                 sizes: 'any',
-                type: 'image/x-icon',
+                type: 'image/svg+xml',
             },
         ],
     };
